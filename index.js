@@ -15,7 +15,7 @@ function addNewElementAsLi() {
   li.appendChild(document.createTextNode(employeeInformation));
   ul.appendChild(li);
   document.querySelector("input").value = "";
-} 
+}
 
 
 
