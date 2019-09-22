@@ -15,7 +15,7 @@ function addNewElementAsLi() {
   ul.appendChild(li);
 }
 
-function addNewLiOnClick(){
+function addNewLiOnClick() {
   let submitButton = document.querySelector('input[type="submit"]');
 
   submitButton.addEventListener('click', function(event){
