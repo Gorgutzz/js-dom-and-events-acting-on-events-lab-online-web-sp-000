@@ -15,11 +15,12 @@ function addNewElementAsLi() {
   ul.appendChild(li);
 }
 
-function addNewLiOnClick() {
-  const submit = document.querySelector('input[type="submit"]');
-  submit.addEventListener('click', function(event){
+function addNewLiOnClick(){
+  let submitButton = document.querySelector('input[type="submit"]');
+
+  submitButton.addEventListener('click', function(event){
     addNewElementAsLi();
-    clearForm();
+    document.querySelector('input').value = "";
   })
 }
 
